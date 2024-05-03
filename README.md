@@ -25,20 +25,26 @@ This repository's `analyses/` directory holds all the Jupyter notebooks used in 
 ```
 THIS_REPO
 ├── README.md
-└── analyses
-    ├── 00_PRS_release6_relatedness_1.ipynb
-    ├── 01_PRS_summary_stats_meta.ipynb
-    ├── 02_PRS_release6_scores.ipynb
-    ├── 03_PCs_PRS_release6_regression_risk.ipynb
-    ├── 04_data_visualization_density_1.ipynb
-    ├── 05_data_visualization_ROC.ipynb
-    ├── 06_data_visualization_forest_plots.ipynb
-    ├── 07_PRS_release6_regression_age_at_onset.ipynb
-    ├── 08_Specificity_Sensitivity_1.ipynb
-    ├── 09_admixture_PRS_release6_regression_risk.ipynb
-    ├── 10_Multi_ancestry_heatmap_1.ipynb
-    ├── 11_PRS_release6_upsetplot.ipynb
-    └── 12_SNPs_contributing_most.ipynb
+├── analyses
+│   ├── 00_PRS_release6_relatedness_1.ipynb
+│   ├── 01_PRS_summary_stats_meta.ipynb
+│   ├── 02_PRS_release6_scores.ipynb
+│   ├── 03_PCs_PRS_release6_regression_risk.ipynb
+│   ├── 04_data_visualization_density_1.ipynb
+│   ├── 05_data_visualization_ROC.ipynb
+│   ├── 06_data_visualization_forest_plots.ipynb
+│   ├── 07_PRS_release6_regression_age_at_onset.ipynb
+│   ├── 08.5_ROC_PRSice.ipynb
+│   ├── 08_Specificity_Sensitivity.ipynb
+│   ├── 09_admixture_PRS_release6_regression_risk.ipynb
+│   ├── 10_Multi_ancestry_heatmap_1.ipynb
+│   ├── 11_PRS_release6_upsetplot.ipynb
+│   ├── 12_SNPs_contributing_most.ipynb
+│   ├── 13_Sample_size_Calculation.R
+│   ├── 14_Power_calculation_Table.R
+│   └── 15_PRS_release6_Table1.ipynb
+└── figures
+    └── SuppFigures.pptx
 ```
 
 ---
@@ -55,11 +61,15 @@ THIS_REPO
 | 05_data_visualization_ROC.ipynb       | Plot the ROC curves                                                                                |
 | 06_data_visualization_forest_plots.ipynb | Forest plot visualizations                                                                         |
 | 07_PRS_release6_regression_age_at_onset.ipynb | Linear regression models for PD age at onset association adjusted by covariates for all ancestries |
-| 08_Specificity_Sensitivity_1.ipynb    | Estimating sensitivity and specificity                                                             |
+| 08_Specificity_Sensitivity.ipynb    | Estimating sensitivity and specificity                                                             |
+| 08.5_ROC_PRSice.ipynb    | Estimate AUC for PRSice                                                             |
 | 09_admixture_PRS_release6_regression_risk.ipynb | PRS versus PD Risk across ancestries, accounting for % ancestry admixture                          |
 | 10_Multi_ancestry_heatmap_1.ipynb     | Visualizing the multi-ancestry results using a heatmap                                             |
 | 11_PRS_release6_upsetplot.ipynb       | Visualizing the multi-ancestry results using an UpSet plot                                         |
 | 12_SNPs_contributing_most.ipynb       | Identifying key SNPs driving PRS prediction                                                        |
+| 13_Sample_size_calculation.R       | Sample size calculations                                                        |
+| 14_Power_calculation_Table.R       | Power calculations                                                 |
+| 15_PRS_release6_Table1.ipynb       | Investigating GP2 release 6 and construction of table 1                                                         |
 
 ---
 
@@ -67,7 +77,7 @@ THIS_REPO
 |               Software              |  Version(s) |                              Resource URL                              |       RRID      |                                               Notes                                               |
 |:-----------------------------------:|:-----------:|:----------------------------------------------------------------------:|:---------------:|:-------------------------------------------------------------------------------------------------:|
 |     Python Programming Language     | 3.8 and 3.9 |                         http://www.python.org/                         | RRID:SCR_008394 | pandas; numpy; seaborn; matplotlib; statsmodel; used for general data wrangling/plotting/analyses |
-| R Project for Statistical Computing |     4.2 |                        http://www.r-project.org/                       | RRID:SCR_001905 |   tidyverse; dplyr; tidyr; ggplot; data.table; used for general data wrangling/plotting/analyses  |
+| R Project for Statistical Computing |     4.2 |                        http://www.r-project.org/                       | RRID:SCR_001905 |   tidyverse; dplyr; tidyr; ggplot; data.table; used for general data wrangling/plotting/analyses // avengeme; for power calculations |
 |                PLINK                |     2.0     |                   http://www.nitrc.org/projects/plink                  | RRID:SCR_001757 |                                     used for genetic analyses                                     |
 | PRSice | 2.0 | https://choishingwan.github.io/PRSice/ | RRID:SCR_017057 | Estimating PRS in R 
 
