@@ -4,7 +4,7 @@
 
 *DOI PENDING*
 
-**Last Updated:** April 2024 
+**Last Updated:** May 2024 
 
 ## Summary
 This is the online repository for the research project titled ***"Insights into Ancestral Diversity in Parkinson’s Disease Risk: A Comparative Assessment of Polygenic Risk Scores"***. Our study evaluates polygenic risk scores (PRS) across multiple ancestries by comparing different PRS models in predicting Parkinson's disease (PD), focusing on identifying the most suitable approach for each population and contributing to equitable advancements in precision medicine.
