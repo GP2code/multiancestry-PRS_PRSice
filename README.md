@@ -2,7 +2,7 @@
 
 `GP2 ❤️ Open Science 😍`
 
-*DOI PENDING*
+[![DOI](https://zenodo.org/badge/790425028.svg)](https://zenodo.org/doi/10.5281/zenodo.11110943)
 
 **Last Updated:** May 2024 
 
